@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgb(29, 29, 29);
+    color: limegreen;
+
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    position:absolute;
+}
+
+h2 {
+    text-align: left;
+}
+
+ul {
+    text-align: right;
+    color: lime;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: 40px;
+
+}
+
+#subcontainer {
+    display: block;
+    margin: 5px;
+    padding: 15px;
+    background: lime;
+    width: 25%;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.text-right {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    position: relative;
+}
+
+#contact {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#item-1 {
+    background-color: lime;
+  }
+  
+  #item-2 {
+    background-color: lime;
+  }
+  
+  #item-3 {
+    background-color: lime;
+  }
