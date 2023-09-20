@@ -1,43 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+/* dowloaded from font squirrel, watched youtube tutorial on how to dowload fonts */
+
 /* Used code from activity 16 to get placement of nav buttons */
 body {
-    font-family:Arial, Helvetica, sans-serif;
     margin: 0px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(54, 52, 63);
     align-content: flex-end;
-    
-    
-    
 }
 
 header {
-    display:flex;
+    display: flex;
     width: 100%;
     position: fixed;
-    position:absolute;
+    position: absolute;
     margin-top: auto;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
-    background-color: rgb(37, 37, 37);
-    color: lime;
+    background-color: rgb(54, 52, 63);
+    color: rgb(93, 248, 93);
     height: 200px;
 }
+
 nav {
     display: flex;
     width: 100%;
     height: 150px;
     justify-content: flex-end;
-    
-    
+
+
 }
+
+h1 {
+    /* font-family is from google fonts */
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    margin: auto;
+    padding-right: 60%;
+
+}
+
 h2 {
+
     text-align: left;
     flex-wrap: wrap;
     display: flex;
@@ -46,27 +51,27 @@ h2 {
 
 ul {
     display: flex;
-    width: 55%;
+    width: 45%;
     justify-content: space-evenly;
-    margin-top: 70px;
-    
-    
+    margin-top: 40px;
+    position: sticky;
+
+
 }
 
 li {
-    display: inline-flex;/*display nav bar sideways on the right*/
-    width: 100px;
+    display: inline-flex;
+    /*display nav bar sideways on the right*/
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    
+
 }
 
 #subcontainer {
     display: block;
     margin: 5px;
     padding: 15px;
-    background: lime;
+    background:  rgb(54, 52, 63);
     width: 25%;
     color: #ffffff;
     text-align: center;
@@ -75,36 +80,59 @@ li {
 
 .text-right {
     text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     position: relative;
 }
 
 #contact {
     text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
-#github, #linkedin, #contact {
-    background-color: lime;
+#github,
+#linkedin,
+#contact, #about {
+    background-color:  rgb(54, 52, 63);
     color: black;
     display: flex;
-    width:70px;
     height: 30px;
     justify-content: center;
     border-radius: 20px;
-    border-color: lime;
+    border-color:  rgb(54, 52, 63);
     border-style: solid;
-    text-decoration: none;/*removes underlined from links*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px
-  }
-  
+    text-decoration: none;
+    /*removes underlined from links*/
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+#github {
+    color: rgb(105, 255, 105);
+    width: 70px;
+}
+
+#about {
+    color: rgb(105, 255, 105);
+    width: 70px;
+}
+
 #linkedin {
-    background-color: lime;
-  }
-  
+    color: rgb(105, 255, 105);
+    
+    width: 90px;
+}
+
 #contact {
-    background-color: lime;
-  }
+    color: rgb(105, 255, 105);
+    width: 85PX;
+}
+
+/* this is to change color in name to make "css" pink */
+.header h1 .css {
+    color: #ff58ca;
+
+}
+.css {
+    color: #ff58ca;
+}
