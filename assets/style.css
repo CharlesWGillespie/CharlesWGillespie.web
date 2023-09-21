@@ -83,7 +83,9 @@ p {/*this is for the about me paragragh*/
 .img-1{/*background img*/
     height: 50vh;
     width: 100%;
-    background-image: url(../assets/img-of-me.jpg);
+    background-image: url(../assets/website-img.png.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 
