@@ -88,6 +88,21 @@ p {/*this is for the about me paragragh*/
     background-position: center;
 
 }
+ 
+.img-golf {
+    display: flex;
+    width: 450px;
+    left:1000px;
+    top: 1000px;
+    position: absolute;
+    border-style: solid;
+    border-color: #9AEBA3;
+    border-radius: 30px;
+
+}
+.img-golf img {
+
+}
 
 #subcontainer {
     display: block;
