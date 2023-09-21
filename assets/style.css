@@ -7,20 +7,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    background-color: rgb(54, 52, 63);
-    align-content: flex-end;
+    background-color: #012030;
 }
 
 header {
     display: flex;
-    width: 100%;
-    position: fixed;
+    font-size: 60px;
     position: absolute;
-    margin-top: auto;
-    font-size: 3rem;
-    background-color: rgb(54, 52, 63);
-    color: rgb(93, 248, 93);
-    height: 200px;
+    color: #9AEBA3;    
 }
 
 nav {
@@ -41,12 +35,6 @@ h1 {
 
 }
 
-h2 {
-
-    text-align: left;
-    flex-wrap: wrap;
-    display: flex;
-}
 
 
 ul {
@@ -55,15 +43,47 @@ ul {
     justify-content: space-evenly;
     margin-top: 40px;
     position: sticky;
-
-
+    
+    
 }
+
 
 li {
     display: inline-flex;
     /*display nav bar sideways on the right*/
     justify-content: center;
-    font-size: 1rem;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+h2-1 {/*this is for the about me h2 section*/
+    display: flex;
+    margin-top: 700px;
+    font-size: 90px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #13678A;
+}
+
+h2-2 {/*This section is for my skills h2*/
+    display: flex;
+    font-size: 90px;
+    font-family: 'Nunito', sans-serif; 
+}
+
+p {/*this is for the about me paragragh*/
+    display: flex;
+    margin-top:10px ;
+    padding: 10px;
+    margin-right: 1000px;
+    margin-bottom: 100px;
+}
+
+.img-1{/*background img*/
+    height: 50vh;
+    width: 100%;
+    background-image: url(../assets/img-of-me.jpg);
 
 }
 
@@ -71,7 +91,7 @@ li {
     display: block;
     margin: 5px;
     padding: 15px;
-    background:  rgb(54, 52, 63);
+    background:  #012030;
     width: 25%;
     color: #ffffff;
     text-align: center;
@@ -92,13 +112,13 @@ li {
 #github,
 #linkedin,
 #contact, #about {
-    background-color:  rgb(54, 52, 63);
+    background-color:  #012030;
     color: black;
     display: flex;
     height: 30px;
     justify-content: center;
     border-radius: 20px;
-    border-color:  rgb(54, 52, 63);
+    border-color:  #012030;
     border-style: solid;
     text-decoration: none;
     /*removes underlined from links*/
@@ -108,31 +128,74 @@ li {
 }
 
 #github {
-    color: rgb(105, 255, 105);
-    width: 70px;
+    color: #9AEBA3;
+    width: 100px;
+    height: 40px;
 }
 
 #about {
-    color: rgb(105, 255, 105);
-    width: 70px;
+    color: #9AEBA3;
+    width: 100px;
+    height: 40px;
 }
 
 #linkedin {
-    color: rgb(105, 255, 105);
-    
-    width: 90px;
+    color: #9AEBA3;
+    width: 120px;
+    height: 40px;
 }
 
 #contact {
-    color: rgb(105, 255, 105);
-    width: 85PX;
+    color: #9AEBA3;
+    width: 110px;
+    height: 40px;
 }
 
 /* this is to change color in name to make "css" pink */
 .header h1 .css {
-    color: #ff58ca;
-
+    color: #45C4B0;
+    
 }
+
 .css {
-    color: #ff58ca;
+    color:#13678A;
+}
+
+.section-1{/*first section about me*/
+    background-color: #13678A;
+    height: 900px;
+}
+
+.section-2{/*section for skills with list*/
+    background-color: #45C4B0;
+    height: 400px;
+}
+
+#about-me { /*this is for the about me header*/
+    color:#9AEBA3;
+}
+
+#about-p {/* this is for my about me paragraph */
+    font-size: 40px;
+    color: #9AEBA3;
+    font-family: 'Nunito', sans-serif; 
+}
+
+#skills {
+    color: #012030;
+    justify-content: center;
+}
+
+#skills-p {
+    font-size: 40px;
+    color: #012030;
+    font-family: 'Nunito', sans-serif;
+}
+#ul-2 {/*this is for my second ul*/
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+
 }
