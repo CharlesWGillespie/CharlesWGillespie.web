@@ -5,21 +5,23 @@
     --light-blue: #13678A;
     --dark: #012030;
     --white: #fff;
+    --light-green:#45C4B0;
 }
+
 body {
     margin: 0px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    background-color: #012030;
+    background-color: var(--dark);
 }
 
 header {
     display: flex;
     font-size: 60px;
     position: absolute;
-    color: #9AEBA3;    
+    color: var(--light);    
 }
 
 nav {
@@ -27,8 +29,6 @@ nav {
     width: 100%;
     height: 150px;
     justify-content: flex-end;
-
-
 }
 
 h1 {
@@ -37,21 +37,15 @@ h1 {
     display: block;
     margin: auto;
     padding-right: 60%;
-
 }
-
-
 
 ul {
     display: flex;
     width: 45%;
     justify-content: space-evenly;
     margin-top: 40px;
-    position: sticky;
-    
-    
+    position: sticky;    
 }
-
 
 li {
     display: inline-flex;
@@ -59,7 +53,6 @@ li {
     justify-content: center;
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
-    
 }
 
 
@@ -69,7 +62,7 @@ h2-1 {/*this is for the about me h2 section*/
     margin-left: 410px;
     font-size: 70px;
     font-family: 'Nunito', sans-serif;
-    background-color: #13678A;
+    background-color: var(--light-blue);
 }
 
 h2-2 {/*This section is for my skills h2*/
@@ -93,9 +86,8 @@ p {/*this is for the about me paragragh*/
     background-image: url(../assets/website-img.png.jpg);
     background-size: cover;
     background-position: center;
-
 }
- 
+
 .img-golf {
     display: flex;
     width: 450px;
@@ -103,7 +95,7 @@ p {/*this is for the about me paragragh*/
     top: 1250px;
     position: absolute;
     border-style: solid;
-    border-color: #9AEBA3;
+    border-color: var(--light);
     border-radius: 30px;
 }
 
@@ -113,15 +105,15 @@ p {/*this is for the about me paragragh*/
     top: 900px;
     position: absolute;
     border-style: solid;
-    border-color: #9AEBA3;
+    border-color: var(--light);
     border-radius: 30px;
-
 }
+
 #subcontainer {
     display: block;
     margin: 5px;
     padding: 15px;
-    background:  #012030;
+    background: var(--dark);
     width: 25%;
     color: #ffffff;
     text-align: center;
@@ -142,13 +134,13 @@ p {/*this is for the about me paragragh*/
 #github,
 #linkedin,
 #contact, #about {
-    background-color:  #012030;
+    background-color:  var(--light-blue);
     color: black;
     display: flex;
     height: 30px;
     justify-content: center;
     border-radius: 20px;
-    border-color:  #012030;
+    border-color:  var(--light-blue);
     border-style: solid;
     text-decoration: none;
     /*removes underlined from links*/
@@ -158,67 +150,66 @@ p {/*this is for the about me paragragh*/
 }
 
 #github {
-    color: #9AEBA3;
+    color: var(--light);
     width: 100px;
     height: 40px;
 }
 
 #about {
-    color: #9AEBA3;
+    color:  var(--light);
     width: 100px;
     height: 40px;
 }
 
 #linkedin {
-    color: #9AEBA3;
+    color: var(--light);
     width: 120px;
     height: 40px;
 }
 
 #contact {
-    color: #9AEBA3;
+    color: var(--light);
     width: 110px;
     height: 40px;
 }
 
 /* this is to change color in name to make "css" pink */
 .header h1 .css {
-    color: #45C4B0;
-    
+    color:  var(--light-blue);    
 }
 
 .css {
-    color:#13678A;
+    color:  var(--light-blue);
 }
 
 .section-1{/*first section about me*/
-    background-color: #13678A;
+    background-color:   var(--light-blue);
     height: 900px;
 }
 
 .section-2{/*section for skills with list*/
-    background-color: #45C4B0;
+    background-color: var(--light-green);
     height: 400px;
 }
 
 #about-me { /*this is for the about me header*/
-    color:#9AEBA3;
+    color: var(--light);
 }
 
 #about-p {/* this is for my about me paragraph */
     font-size: 30px;
-    color: #9AEBA3;
+    color: var(--light);
     font-family: 'Nunito', sans-serif;
 }
 
 #skills {
-    color: #012030;
+    color: var(--dark);
     justify-content: center;
 }
 
 #skills-p {
     font-size: 40px;
-    color: #012030;
+    color: var(--dark);
     font-family: 'Nunito', sans-serif;
 }
 #ul-2 {/*this is for my second ul*/
@@ -227,5 +218,4 @@ p {/*this is for the about me paragragh*/
     flex-direction: column;
     justify-content: space-around;
     align-content: space-between;
-
 }
