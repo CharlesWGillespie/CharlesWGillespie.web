@@ -55,6 +55,10 @@ li {
     font-family: 'Nunito', sans-serif;
 }
 
+h4 {
+    font-size: 3.5rem;
+}
+
 
 h2-1 {/*this is for the about me h2 section*/
     display: flex;
@@ -66,6 +70,12 @@ h2-1 {/*this is for the about me h2 section*/
 }
 
 h2-2 {/*This section is for my skills h2*/
+    display: flex;
+    font-size: 90px;
+    font-family: 'Nunito', sans-serif; 
+}
+
+h2-3 {
     display: flex;
     font-size: 90px;
     font-family: 'Nunito', sans-serif; 
@@ -192,6 +202,12 @@ p {/*this is for the about me paragragh*/
     height: 400px;
 }
 
+.section-3 {
+    color: var(--light-blue);
+    background-color: var(--light);
+    height: 600px;
+}
+
 #about-me { /*this is for the about me header*/
     color: var(--light);
 }
@@ -213,9 +229,12 @@ p {/*this is for the about me paragragh*/
     font-family: 'Nunito', sans-serif;
 }
 #ul-2 {/*this is for my second ul*/
+    color: var(--dark);
     display: flex;
     width: 45%;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: space-between;
+}
+
+#projects {
+    justify-content: center;
 }
