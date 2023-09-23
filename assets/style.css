@@ -174,7 +174,7 @@ p {/*this is for the about me paragragh*/
 #linkedin {
     color: var(--light);
     width: 120px;
-    height: 41px;
+    height: 40px;
 }
 
 #contact {
@@ -206,6 +206,10 @@ p {/*this is for the about me paragragh*/
     color: var(--light-blue);
     background-color: var(--light);
     height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 1;
+    justify-content: center;
 }
 
 #about-me { /*this is for the about me header*/
@@ -238,3 +242,28 @@ p {/*this is for the about me paragragh*/
 #projects {
     justify-content: center;
 }
+
+.projects-box {/*conttainer for the projects area*/
+    background-color: var(--light);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.project-1 {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px;
+}
+
+.project-1 header {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+}
+
+
