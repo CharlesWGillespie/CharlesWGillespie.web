@@ -52,6 +52,7 @@ h2{
 li{
    list-style: none;
    font-family: var(--font);
+   font-size: 25px;
 }
 
 #github {
@@ -148,6 +149,7 @@ main section h2 {
 .skills-section {
     background-color: var(--light-green);
     color: var(--dark);
+    padding: 30px;
 }
 
 .project-title {
@@ -199,7 +201,7 @@ main section h2 {
 }
 
 div h4 {
-    font-size: 20px;
+    font-size: 35px;
     font-family: var(--font);
 }
 
