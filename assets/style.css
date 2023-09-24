@@ -1,3 +1,7 @@
+/*evan helped alot with this*/
+a {
+    margin: 0;
+}
 :root {
     --light: #9AEBA3;
     --light-blue: #13678A;
@@ -38,6 +42,12 @@ h2{
     justify-content: center;
     font-size: 40px;
     font-family: var(--font);
+}
+
+.skills{
+    color: var(--dark);
+    text-align: center;
+    width: 100%;
 }
 
 .nav-li {
@@ -100,7 +110,7 @@ li{
 
 main {
     background-color: var(--light-blue);
-    max-width: 1800px;
+    max-width: 1400px;
     margin:auto;
 }
 
@@ -235,7 +245,7 @@ footer p {
 
 /*Small*/
 @media (min-width: 640px) {
-header h1 {
+/* header h1 {
     font-size: 150px; 
 }
 main section h2 {
@@ -250,7 +260,81 @@ main section h2 {
 section h2 {
     font-size: 60px;
 }
+.project-container {
+    flex-direction: column;
+    width: 50%;
+    
 }
+.project-box h4:last-child {
+    width:100%
+}
+.project-box h4:first-child {
+    width:100%
+}
+
+.img-prework-study-guide {
+    width:60%;
+    margin:  0 200px;
+}
+
+.img-flexbox-cheatsheet {
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+} */
+
+
+header h1 {
+    font-size: 170px; 
+}
+main section:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#about-anchor {
+    width: 100%;
+}
+.main-p {
+    max-width: 400px;
+} 
+ .img-golf{
+    margin: auto;
+    width: 350px;
+    margin-top: 0;
+}
+.img-liv{
+    width: 250px;
+}
+h4 {
+    text-align: center;
+    width: 45%;
+    font-size: 5px;
+}
+.project-container {
+    flex-direction: column;
+    width: 50%;
+    
+}
+.project-box h4:last-child {
+    width:100%
+}
+.project-box h4:first-child {
+    width:100%
+}
+
+.img-prework-study-guide {
+    width:60%;
+    margin:  auto;
+}
+
+.img-flexbox-cheatsheet {
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+}
+
 /*Medium*/
 @media (min-width: 768px){
     header h1 {
@@ -267,42 +351,70 @@ section h2 {
     }
     section h2 {
         font-size: 65px;
-    } 
+    }
+     
 }
 
 /*Large*/
 @media (min-width: 1024px){
     header h1 {
-        font-size: 170px; 
+        font-size: 170px;
+        width: 200px; 
+        margin-right: auto;
+    }
+    main section:first-child {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #about-anchor {
+        width: 100%;
     }
     .main-p {
-        margin-right: 600px;
-    }
-    .img-golf{
-        position:absolute;
-        margin-top: -650px;
-        margin-left: 450px;
+        max-width: 400px;
+    } 
+     .img-golf{
+        margin: auto;
         width: 350px;
+        margin-top: 0;
     }
     .img-liv{
-        position:absolute;
-        margin-top: -360px;
-        margin-left: 500px;
         width: 250px;
     }
     h4 {
         text-align: center;
-        width: 100%;
+        width: 45%;
         font-size: 5px;
     }
+    .project-container {
+        flex-direction: column;
+        width: 50%;
+        height: 100px;
+        
+    }
+    .project-box h4:last-child {
+        width:100%
+    }
+    .project-box h4:first-child {
+        width:100%
+    }
+    
     .img-prework-study-guide {
-        width:;
+        width:60%;
+        margin:  0 200px;
     }
 
     .img-flexbox-cheatsheet {
-        width: 60%;
+        width: 70%;
+        margin: 0 auto;
+        justify-content: center;
     }
-    
+
+    .header {
+        background: url(../assets/img-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 
