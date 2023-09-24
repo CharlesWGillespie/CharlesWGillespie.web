@@ -15,6 +15,7 @@ body {
     background-color: var(--dark);
 }
 
+
 .header {
     display: flex;
     justify-content: center; 
@@ -99,6 +100,8 @@ li{
 
 main {
     background-color: var(--light-blue);
+    max-width: 1800px;
+    margin:auto;
 }
 
 main section{
@@ -123,6 +126,8 @@ main section h2 {
     margin-right: 30px;
     font-family: var(--font);
 }
+
+
 
 .img-golf {
     display: flex;
@@ -156,7 +161,7 @@ main section h2 {
     background-color: var(--light);
     color: #13678A;
     padding: 20px;
-
+    
 }
 
 .project-section {
@@ -200,6 +205,15 @@ main section h2 {
     border-radius: 20px 20px 20px 20px;
 }
 
+.img-flexbox-cheatsheet {
+    display: flex;
+    border-style: solid;
+    border-width: 4px;
+    justify-content: center;
+    width: 80%;
+    border-radius: 20px 20px 20px 20px;
+}
+
 div h4 {
     font-size: 35px;
     font-family: var(--font);
@@ -217,6 +231,78 @@ footer p {
     justify-content: center;
     padding: 10px;
     color: var(--light);
+}
+
+/*Small*/
+@media (min-width: 640px) {
+header h1 {
+    font-size: 150px; 
+}
+main section h2 {
+    font-size: 60px;
+}
+.img-golf{
+    width: 500px;
+}
+.img-liv{
+    width: 450px
+}
+section h2 {
+    font-size: 60px;
+}
+}
+/*Medium*/
+@media (min-width: 768px){
+    header h1 {
+        font-size: 170px; 
+    }
+    main section h2 {
+        font-size: 65px;
+    }
+    .img-golf{
+        width: 650px;
+    }
+    .img-liv{
+        width: 550px
+    }
+    section h2 {
+        font-size: 65px;
+    } 
+}
+
+/*Large*/
+@media (min-width: 1024px){
+    header h1 {
+        font-size: 170px; 
+    }
+    .main-p {
+        margin-right: 600px;
+    }
+    .img-golf{
+        position:absolute;
+        margin-top: -650px;
+        margin-left: 450px;
+        width: 350px;
+    }
+    .img-liv{
+        position:absolute;
+        margin-top: -360px;
+        margin-left: 500px;
+        width: 250px;
+    }
+    h4 {
+        text-align: center;
+        width: 100%;
+        font-size: 5px;
+    }
+    .img-prework-study-guide {
+        width:;
+    }
+
+    .img-flexbox-cheatsheet {
+        width: 60%;
+    }
+    
 }
 
 
