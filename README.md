@@ -10,7 +10,8 @@ To use this website you will find links to my gitthub and linkedIn with anchor-l
 
 ## Credits
 
-Flexbox tutorial used https://www.youtube.com/watch?v=K74l26pE4YA
+Study Group: Evan Bennett https://github.com/Evan8383
+Youtube: Flexbox tutorial:  https://www.youtube.com/watch?v=K74l26pE4YA
 
 ## Features
 
