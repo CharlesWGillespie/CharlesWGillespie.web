@@ -8,8 +8,16 @@ The purpose of this project is to have a place where I can link and display webs
 
 Flexbox tutorial used https://www.youtube.com/watch?v=K74l26pE4YA
 
+## Usage
+
+To use this website you will find links to my gitthub and linkedIn with anchor-links to "About Me" section describing things I like to do and hobbies, and "Contact Informaiton" with my demo email and demo phone number. Near the bottom of the page you will also find what languages and tools I am currently learning/studying and a "Projects" section with images and links to all projects I have built. (Please Note: If a project image does not have a link, I have not completed it yet.) 
+
 ## Features
 
 HTML
 CSS
 Flexbox
+
+## License
+
+Please refer to the license in the repository.
