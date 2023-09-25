@@ -13,6 +13,11 @@ To use this website you will find links to my gitthub and linkedIn with anchor-l
 Study Group: Evan Bennett https://github.com/Evan8383
 Youtube: Flexbox tutorial:  https://www.youtube.com/watch?v=K74l26pE4YA
 
+##Preview Screenshots
+![img-app-screenshot01](https://github.com/CharlesWGillespie/CharlesWGillespie.web/assets/143773137/76fd23a5-2010-4034-8002-f350541f735e)
+![img-app-screenshot02](https://github.com/CharlesWGillespie/CharlesWGillespie.web/assets/143773137/56750c4f-05f3-4af4-aa19-6dee064aebdf)
+![img-app-screenshot03](https://github.com/CharlesWGillespie/CharlesWGillespie.web/assets/143773137/f7765da0-dfd9-44da-aa2c-cdf62a6836d7)
+
 ## Features
 
 HTML
