@@ -2,6 +2,7 @@
 a {
     margin: 0;
 }
+/* root colors to keep everything uniform if needed to change */
 :root {
     --light: #9AEBA3;
     --light-blue: #13678A;
@@ -10,6 +11,7 @@ a {
     --light-green:#45C4B0;
     --font:'Nunito', sans-serif;
 }
+/* this hides the horizontal scroll bar */
 html body {
     max-width: 100%;
     overflow-x: hidden;
@@ -25,6 +27,7 @@ body {
     justify-content: center; 
 }
 
+/* this changes colors of the letters  CSS in my name */
 .css {
     color:  var(--light-blue);
 }
@@ -66,6 +69,7 @@ li{
    font-size: 25px;
 }
 
+/* all links in nav bar */
 #github {
     color: var(--light);
     width: 100px;
@@ -108,6 +112,7 @@ li{
     font-weight: 400;
 }
 
+/* about me section */
 main {
     background-color: var(--light-blue);
     max-width: 1400px;
@@ -137,8 +142,7 @@ main section h2 {
     font-family: var(--font);
 }
 
-
-
+/* about me image section */
 .img-golf {
     display: flex;
     width: 400px;
@@ -161,12 +165,14 @@ main section h2 {
     border-radius: 30px;
 }
 
+/* skills section */
 .skills-section {
     background-color: var(--light-green);
     color: var(--dark);
     padding: 30px;
 }
 
+/* project section */
 .project-title {
     background-color: var(--light);
     color: var(--light-blue);
@@ -182,7 +188,8 @@ main section h2 {
     
 }
 
-.project-box {/*conttainer for the projects area*/
+/*conttainer for the projects area*/
+.project-box {
     background-color: var(--light);
     display: flex;
     flex-wrap: wrap;
@@ -207,6 +214,7 @@ main section h2 {
     color: #45C4B0;
 }
 
+/* images of projects */
 .img-prework-study-guide {
     display: flex;
     border-style: solid;
@@ -225,11 +233,13 @@ main section h2 {
     border-radius: 20px 20px 20px 20px;
 }
 
+/* porject headers */
 div h4 {
     font-size: 35px;
     font-family: var(--font);
 }
 
+/* contact section */
 .footer {
     padding:20px;
     color: var(--light);
@@ -244,7 +254,7 @@ footer p {
     color: var(--light);
 }
 
-/*Small*/
+/*Small screen apllication*/
 @media (min-width: 640px) {
 /* header h1 {
     font-size: 150px; 
@@ -336,7 +346,7 @@ h4 {
 }
 }
 
-/*Medium*/
+/*Medium screen application*/
 @media (min-width: 768px){
     header h1 {
         font-size: 170px; 
@@ -356,7 +366,7 @@ h4 {
      
 }
 
-/*Large*/
+/*Large screen application*/
 @media (min-width: 1024px){
     header h1 {
         font-size: 170px;
@@ -411,6 +421,7 @@ h4 {
         justify-content: center;
     }
 
+    /* background image on header only seen when in ful screen on montior */
     .header {
         background: url(../assets/img-background.jpg);
         background-repeat: no-repeat;
